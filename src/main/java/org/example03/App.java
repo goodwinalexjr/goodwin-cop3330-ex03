@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solution
+ *  Copyright 2021 Alex Goodwin
+ */
+
 package org.example03;
 import java.util.Scanner;
 
@@ -8,6 +13,6 @@ public class App {
         String Quote = quotes.nextLine();
         System.out.print("Who said it? ");
         String Name = quotes.nextLine();
-        System.out.println(Name + " says, " + '"' + Quote + '"');
+        System.out.println(Name + " says, \"" + Quote + '\"');
     }
 }
